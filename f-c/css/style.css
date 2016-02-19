@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body {
+	background-color: #fff0f5;
+	color: #5f5039;
+	font-size: 120%;
+	line-height: 1.5;
+	margin-top: 0;
+}
+
+header #top{
+	padding-left: 0;
+	
+	
+}
+
+h1,nav,#PROFILE,#SKILLS,#GALLERY,#CONTACT,footer{
+	margin: 0 auto 0 auto;
+	width: 840px;
+}
+
+nav ul {
+	overflow: hidden;
+	margin: 30px 0 30px 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	text-align: center;
+	float: left;
+	width: 168px;
+}
+
+h1 {
+	font-size: 230%;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+#PROFILE p {
+	font-size: 90%;
+}
+
+.profile {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.photo {
+	float: left;
+	margin-right: 25px;
+}
+
+
+
+div ul {
+	margin: 0 0 20px 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+#pagetop {
+	
+	text-align: right;
+	font-size: 80%;
+}
+
+footer {
+	text-align: center;
+	font-size: 80%;
+}
+
+form p {
+	font-size: 95%;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+form p:nth-last-child(2) {
+	margin-bottom: 7px;
+}
+
+form p:last-child {
+	margin-bottom: 0;
+}
+
+input[type="text"] {
+	width: 300px;
+}
+
+input[type="email"] {
+	width: 300px;
+}
+
+textarea {
+	width: 420px;
+	height: 115px;
+	overflow-y: scroll;
+}
